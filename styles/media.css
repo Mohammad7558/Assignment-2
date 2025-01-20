@@ -1,0 +1,21 @@
+/* responsive layout */
+@media screen and (max-width: 480px) {
+    /* header section responsive style start */
+    .header{
+        padding: 20px;
+        border-bottom: 1px solid var(--primary-color);
+        width: 100%;
+    }
+    .flexible-logo > h1{
+        display: none;
+    }
+    .mainmenu, .header-button{
+        display: none;
+    }
+    .hamberger-icon{
+        display: inline-block;
+        font-size: 30px;
+    }
+    /* header section responsive style end */
+
+}
