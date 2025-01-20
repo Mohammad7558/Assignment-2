@@ -1,43 +1,78 @@
 /* responsive layout */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
+
     /* header section responsive style start */
-    .header{
+    .header {
         padding: 20px;
         border-bottom: 1px solid var(--primary-color);
         width: 100%;
     }
-    .flexible-logo > h1{
+
+    .flexible-logo>h1 {
         display: none;
     }
-    .mainmenu, .header-button{
+
+    .mainmenu,
+    .header-button {
         display: none;
     }
-    .hamberger-icon{
+
+    .hamberger-icon {
         display: inline-block;
         font-size: 30px;
     }
+
     /* header section responsive style end */
 
     /* banner section responsive style start */
-    .banner-section{
+    .banner-section {
         flex-direction: column-reverse;
         width: 100%;
         padding: 20px;
     }
-    .banner-content{
+
+    .banner-content {
         width: 100%;
         margin: 20px auto;
         text-align: center;
     }
-    .banner-content h1{
+
+    .banner-content h1 {
         font-size: 2rem;
     }
-    .banner-content p{
+
+    .banner-content p {
         font-size: 1.1rem;
         line-height: 30px;
     }
-    .banner-img img{
+
+    .banner-img img {
         width: 100%;
     }
+
     /* banner section responsive style end */
+
+    /* standard-curriculum section responsive style start */
+    .standard-curriculum {
+        width: 100%;
+        padding: 20px;
+        background-image: url('/assets/bg.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .standard-curriculum-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .standard-curriculum>h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .arrow-icon-section{
+        display: none;
+    }
+    /* standard-curriculum section responsive style end */
 }
