@@ -79,6 +79,7 @@
     /* footer responsive style start */
     .footer-section{
         flex-direction: column;
+        padding: 50px 0;
     }
     .footer-logo-secton{
         width: 100%;
