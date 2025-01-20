@@ -18,4 +18,26 @@
     }
     /* header section responsive style end */
 
+    /* banner section responsive style start */
+    .banner-section{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 20px;
+    }
+    .banner-content{
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+    }
+    .banner-content p{
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    /* banner section responsive style end */
 }

@@ -68,3 +68,43 @@ body{
     display: none;
 }
 /* header section style end */
+
+
+/* banner section style start */
+.banner-section{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.sp-one{
+    color: var(--primary-color);
+    display: block;
+}
+.sp-two{
+    color: #05ACFD;
+}
+
+.banner-content p{
+    margin: 20px 0;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.banner-section button{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+/* banner section style end */
