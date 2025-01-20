@@ -211,7 +211,22 @@ body {
 
 /* standard-curriculum style end*/
 
-
+/* our story container style start */
+.our-stories{
+    width: 90%;
+    margin: auto;
+}
+.our-stories-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.stories-card-one{
+    grid-column: 1 / 3;
+    grid-row: 1 / -1;
+}
+/* our story container style end */
 
 
 /* footer section style start */
