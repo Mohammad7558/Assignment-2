@@ -126,7 +126,7 @@ body {
     width: 90%;
     margin: auto;
     padding: 70px 0;
-    background-image: url('/assets/bg.png');
+    background-image: url('/assets/bgimg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -217,7 +217,7 @@ body {
 .our-stories{
     width: 100%;
     padding: 100px 0 80px 0;
-    background-image: linear-gradient(to top,#fea10177, #ffffff5a), url('/assets/bg.png');
+    background-image: linear-gradient(to top,#fea10177, #ffffff5a), url('/assets/bgimg.png');
     background-position: center;
 }
 
