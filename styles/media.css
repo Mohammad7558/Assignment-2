@@ -4,7 +4,14 @@
     /* header section responsive style start */
     .header {
         padding: 20px;
-        border-bottom: 1px solid var(--primary-color);
+        border: 1px solid var(--primary-color);
+        width: 100%;
+    }
+
+    .marquee{
+        border-top: 1px solid var(--primary-color);
+        border-right: 1px solid var(--primary-color);
+        border-left: 1px solid var(--primary-color);
         width: 100%;
     }
 
@@ -71,20 +78,22 @@
         margin-bottom: 40px;
     }
 
-    .arrow-icon-section{
+    .arrow-icon-section {
         display: none;
     }
+
     /* standard-curriculum section responsive style end */
 
     /* our stories responsive start */
-    .stories-container{
+    .stories-container {
         grid-template-columns: repeat(2, 1fr);
     }
-    .stories-card-1{
+
+    .stories-card-1 {
         display: none;
     }
 
-    .date-button{
+    .date-button {
         padding: 9px 12px;
         border-radius: 20px;
         border: none;
@@ -92,27 +101,36 @@
         font-size: 13px;
     }
 
-    .stories-card-img-button > button{
+    .our-stories-section>h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .stories-card-img-button>button {
         position: absolute;
         left: 10px;
         bottom: -15px;
     }
-    .stories-card-content{
+
+    .stories-card-content {
         padding: 30px 10px 20px 10px;
     }
-    .stories-card-content > h2{
+
+    .stories-card-content>h2 {
         font-size: 13px;
-    }    
-    .date-button-card-3, .date-button-card-4, .date-button-card-5{
+    }
+
+    .date-button-card-3,
+    .date-button-card-4,
+    .date-button-card-5 {
         background-color: #5D58F0;
     }
 
-    .view-all-button{
+    .view-all-button {
         text-align: center;
-        padding-bottom: 50px;
     }
-    
-    .view-all-button button{
+
+    .view-all-button button {
         font-weight: bold;
         font-size: 1rem;
         padding: 13px 50px;
@@ -122,22 +140,29 @@
         color: white;
     }
 
-    .our-stories{
-        padding-bottom: 50px;
+    .our-stories {
+        margin-top: 30px;
+        padding: 40px 0;
+        background-image: linear-gradient(to top, #fea10177, #ffffff5a), url('/assets/bg.png');
+        background-position: center;
+        background-size: 150%;
     }
 
     /* our stories responsive end */
 
     /* footer responsive style start */
-    .footer-section{
+    .footer-section {
         flex-direction: column;
         padding: 50px 0;
     }
-    .footer-logo-secton{
+
+    .footer-logo-secton {
         width: 100%;
     }
-    .footer-menu-section{
+
+    .footer-menu-section {
         margin: 30px 0;
     }
+
     /* footer responsive style end */
 }
