@@ -4,15 +4,13 @@
     /* header section responsive style start */
     .header {
         padding: 20px;
-        border: 1px solid var(--primary-color);
+        border-bottom: 1px solid var(--primary-color);
         width: 100%;
     }
 
     .marquee{
-        border-top: 1px solid var(--primary-color);
-        border-right: 1px solid var(--primary-color);
-        border-left: 1px solid var(--primary-color);
         width: 100%;
+        box-shadow: 0px 5px 10px #00000025;
     }
 
     .flexible-logo>h1 {
