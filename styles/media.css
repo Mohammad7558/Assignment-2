@@ -76,6 +76,58 @@
     }
     /* standard-curriculum section responsive style end */
 
+    /* our stories responsive start */
+    .stories-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stories-card-1{
+        display: none;
+    }
+
+    .date-button{
+        padding: 9px 12px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-size: 13px;
+    }
+
+    .stories-card-img-button > button{
+        position: absolute;
+        left: 10px;
+        bottom: -15px;
+    }
+    .stories-card-content{
+        padding: 30px 10px 20px 10px;
+    }
+    .stories-card-content > h2{
+        font-size: 13px;
+    }    
+    .date-button-card-3, .date-button-card-4, .date-button-card-5{
+        background-color: #5D58F0;
+    }
+
+    .view-all-button{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    .view-all-button button{
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 13px 50px;
+        border: none;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .our-stories{
+        padding-bottom: 50px;
+    }
+
+    /* our stories responsive end */
+
     /* footer responsive style start */
     .footer-section{
         flex-direction: column;
